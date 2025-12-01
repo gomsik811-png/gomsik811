@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run meeting_notes",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/meeting_notes.py",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env",
+      "args": [
+        "path/to/audio.m4a",
+        "--output",
+        "minutes.md",
+        "--title",
+        "팀 미팅"
+      ]
+    }
+  ]
+}
